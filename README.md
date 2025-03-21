@@ -1,6 +1,6 @@
 # WhatInQR
 
-# What in WhatInQR?
+# What is WhatInQR?
 WhatInQR extracts the string contained in the QR code using a PC camera
 
 # Installation
