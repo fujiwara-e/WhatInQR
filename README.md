@@ -18,7 +18,7 @@ $ brew install zbar (For MAC)
 $ sudo apt install libzbar0 (For Linux)
 ```
 
-# Useage
+# Usage
 ```
 $ python WhatInQR
 ```
