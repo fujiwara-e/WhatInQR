@@ -13,9 +13,9 @@ I recommend using venv
 ```
 $ python3 -m venv myenv
 $ source myenv/bin/activate
-(myenv ->) pip install pyzbar numpy opencv-python
+$ pip install pyzbar numpy opencv-python
 ```
-if you don't have libzbar.so
+pyzbar depends on zbar. if you don't have libzbar.so
 ```
 $ brew install zbar (For MAC)
 $ sudo apt install libzbar0 (For Linux)
@@ -23,7 +23,7 @@ $ sudo apt install libzbar0 (For Linux)
 
 ## Usage
 ```
-(myenv ->) python3 WhatInQR
+$ python3 WhatInQR.py
 ```
 A window will appear, displaying the image being captured by the camera.
 
